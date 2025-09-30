@@ -31,8 +31,8 @@ def main():												# Within the root of this file, this program expects a us
 
 	list_sorted_word_count = common_word_counter(text)	# Assigns a list of pair of (word, count) to a 'list_sorted_word_count' var.
 
-	for word, count in list_sorted_word_count[:20]:		# For each word and count in the above list (up to 20),
-		print(f"\n{word}: {count}")						# print each items.
+	for word, count in list_sorted_word_count[:20]:		# For each word and count in the above list (first 20 in the list),
+		print(f"{word}: {count}")						# print each items.
 
 	print("\n--------- Character Count -------")
 

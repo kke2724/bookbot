@@ -61,7 +61,7 @@ def common_word_counter(text):  # Function that counts the top 20 commonly appea
 		"were", "what", "when", "where", "which", "who", "why", "will", "you", "your",
 		"yours", "ye", "thou", "did", "does", "having", "shall", "with", "mr", "ms", "mrs",
 		"all", "been", "could", "would", "should", "no", "very", "said", "there", "here",
-		"than", "much", "more", "less", "any"
+		"than", "much", "more", "less", "any", "like", "then", "upon", "yet"
 	]
 
 	list_cleaned_text = []						# Creates an empty list.
